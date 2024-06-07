@@ -1,18 +1,19 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Bienvenido a la Agenda Odontológica</h1>
+    <p>Seleccione el calendario para ver sus citas.</p>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
+  name: 'HomeView'
+};
 </script>
+
+<style scoped>
+.home {
+  text-align: center;
+  padding: 20px;
+}
+</style>

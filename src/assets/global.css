@@ -1,0 +1,17 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.calendar {
+    max-width: 900px;
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+    .calendar {
+        width: 100%;
+        padding: 10px;
+    }
+}
